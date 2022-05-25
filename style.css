@@ -1,0 +1,60 @@
+ body{
+    height: auto;
+    background-color: rgb(243, 238, 219);
+    width: auto;
+}
+
+.card{
+    height: 650px;
+    width: 340px;
+    display: flex;
+}
+
+
+
+ .bi{
+      background-color: aliceblue;
+    border-radius: 15px;
+  }
+  
+  .ph{
+      color: rgb(10, 10, 10);
+      font-size: 9vh;
+      text-shadow: 2px 2px 5px red;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+  }
+  video{
+      margin-top:1px;
+      margin-bottom: 2px;
+      padding: 0px;
+      width: 1356px;
+      margin-left: 1px;
+      margin-right: 1px;
+      
+
+  }
+  .form{
+    width: 30%;
+    height: 600px;
+    background-color: white;
+    color: rgb(57, 55, 53);
+    border-radius: 10px;
+    margin: 20px;
+
+
+  }
+  
+
+ 
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+    display: block;
+    float: none;
+  }
+  .cancelbtn {
+    width: 100%;
+  }
+}
+  
